@@ -5,6 +5,7 @@ Les défis :
 	https://www.nuitdelinfo.com/inscription/defis/352
 3) (Moins) x (Moins) =(Plus) :
 	https://www.nuitdelinfo.com/inscription/defis/357
+<<<<<<< Updated upstream
 4) COLLABORER ! :
 	https://www.nuitdelinfo.com/inscription/defis/379
 
@@ -23,3 +24,6 @@ Idée / étape :
 
 	Etape 2 :
 		"A" et "B" passe un bon moment, malheureusement "A" a craqué sa capote sous les coups frénétique de ses hanches. Il n'en fit pas part à "B" pour qu'elle ne panique pas, il espérait au fond de lui qu'elle ne serais pas contaminé par son SIDA
+=======
+4) COLLABORER !
+>>>>>>> Stashed changes
