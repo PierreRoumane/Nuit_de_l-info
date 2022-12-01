@@ -4,10 +4,10 @@ En arrivant sur le site internet.
 
 Descriptif du site et de la démarche derrière : 
 
-Salut à toi jeune humain curieux ! Tu connais le VIH? Oui? Non? Peut importe la réponse
+Salut à toi jeune humain curieux ! Tu connais le VIH? Oui? Non? Peut importe la réponse,
 le but ici est de te faire découvrir ce virus, ces symptômes, sa transmission, et
 pleins d'autres choses utiles! Tu penses ne rien apprendre ici, attends un peu, 
-parce que même si tu connais tout sur tout, tu passeras peut être un bon moment en
+parce que même si tu connais tout, tu passeras peut être un bon moment en
 te laissant emporter dans l'histoire que nous voulons te conter. 
 
 + Un bouton start
@@ -21,15 +21,15 @@ Choix de la personne saine que le joueur va jouer:
 **************************** 3ième slide : ***************************
 
 Personnage A rencontre perso B (Stick-man non-genré), ils sont en couple, ils s'aiment
-On peut matérialiser ca par des coeurs entre eux.
+On peut matérialiser cela par des coeurs entre eux.
 
 Texte explicatif du slide : 
 La vie est belle! tu as rencontré ton/ta partenaire de tes rêves, rien ne peut vous 
 arriver ! Il/Elle est en pleine forme. 
 
 Dans une discussion mémorable sur les pâtes aux pestos, ton/ta partenaire 
-t'annonce qu'il possède un virus, le VIH, peut sensibiliser encore sur le sujet, 
-tu n'y porte que très peu d'importance.
+t'annonce qu'il estporteur d'un virus, le VIH, "peut sensibiliser encore sur le sujet", 
+tu n'y portes que très peu d'importance.
 
 **************************** 4ième slide : ***************************
  Pers A et pers B sont dans un lit, il y a un coeur entre les deux.
@@ -37,13 +37,13 @@ tu n'y porte que très peu d'importance.
  Texte explicatif du slide : 
  Ce soir est un soir spécial pour toi et ton grand amour! vous allez expérimenter
  pour la première fois la relation sexuel, tu sais qu'il a déjà sauté le pas mais
- c'est la première fois pour toi! Un peu stresser, tu ne sais pas trop par ou 
+ c'est la première fois pour toi! Un peu stressé, tu ne sais pas trop par où 
  commencer...
 
  Question à choix multiple:
 
  Choix 1 : Mettre une capote
- Choix 2 : Ne pas mettre une capote
+ Choix 2 : Ne pas mettre de capote
 
  Quand choix fait, image subliminale de zig zig entre eux
 
@@ -52,13 +52,13 @@ tu n'y porte que très peu d'importance.
  Si choix 1 -> 
 
  Texte explicatif :
- Vous faites le grand saut dans la joie et la bonne humeur, c'est génial!
+ Vous faites le grand saut dans la joie et la bonne humeur, c'était génial!
  A la fin de ce rapport charnel, vous vous rendez compte que la capote à un
- petit troue sur un côté. Malheureusement, cela à suffit pour que le VIH passe 
+ petit trou sur un côté. Malheureusement, cela a suffit pour que le VIH passe 
  de ton/ta partenaire à toi!
 
- Donnée statistique = Aie aie aie! pas de chance! lors d'un rapport sexuel
- protéger, les chances de casse d'un préservatif non périmé sont de moins d'1%!
+ Donnée statistique = Aie aie aie! C'est vraiment pas de chance! Lors d'un rapport sexuel
+ protégé, les chances de casse d'un préservatif non périmé sont de moins d'1%!
  Ici vous n'avez pas eux de chance, cela n'est pas de votre faute, cela nous apprend
  qu'il faut faire attention à l'état du préservatif après l'acte heureux!
  Rmrq : Toujours vérifier la date de péremption du préservatif! Eh ouais, c'est comme
@@ -67,13 +67,13 @@ tu n'y porte que très peu d'importance.
  Si choix 2 -> 
 
  Texte explicatif :
- Vous faites le grand saut dans la joie et la bonne humeur, c'est génial!
+ Vous faites le grand saut dans la joie et la bonne humeur, c'était génial!
  A la fin de ce rapport charnel, l'adrénaline coule à flot dans vos corps,
  Mais ce n'est pas la seule chose qui est en commun dans vos corp! en effet,
- Le VIH à réussi à rentrer dans ton organisme! 
- Eh oui, faire un rapport sexuel non protéger est dangereux! Même si le risque 
+ Le VIH à réussi à infecter ton organisme! 
+ Eh oui, faire un rapport sexuel non-protégé est dangereux! Même si le risque 
  de contamination du VIH lors de tels rapports ne dépasse pas 0,14%, le risque n'en
- vaut pas la chandel!
+ vaut pas la chandèle!
 
  ****************************** Le VIH ******************************** 
 
