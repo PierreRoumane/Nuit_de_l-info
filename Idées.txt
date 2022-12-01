@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 Les défis :
 1) Nuit de l'info
 2) Pour une application plus sobre :
@@ -6,4 +5,4 @@ Les défis :
 3) (Moins) x (Moins) =(Plus) :
 	https://www.nuitdelinfo.com/inscription/defis/357
 4) COLLABORER !
->>>>>>> Stashed changes
+
