@@ -7,8 +7,15 @@
     <title>base_template</title>
 
     <script language="javascript">
-alert("Bonjour et bienvenue!")
-</script>
+    	function runOnKeys(func, ...codes) {
+      		let pressed = new Set();
+
+      		document.addEventListener('keydown', function(event) {
+        		pressed.add(event.code);
+        		return pressed
+        	}
+        }
+	</script>
 
 </head>
 
