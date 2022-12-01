@@ -21,7 +21,7 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 300 },
+            gravity: { y: 0 },
             debug: false
         }
     },
@@ -69,7 +69,7 @@ function create ()
     player = this.physics.add.sprite(100, 450, '');
 
     //  Player physics properties. Give the little guy a slight bounce.
-    player.setBounce(0.2);
+    player.setRotation(0.2);
     player.setCollideWorldBounds(true);
 
     //  Our player animations, turning, walking left and walking right.
@@ -82,7 +82,7 @@ function create ()
 
     this.anims.create({
         key: 'turn',
-        frames: [ { key: 'dude', frame: 4 } ],
+        frames: [ { key: 'VIH', frame: 4 } ],
         frameRate: 20
     });
 
@@ -105,20 +105,20 @@ function create ()
 
     stars.children.iterate(function (child) {
 
-        //  Give each star a slightly different bounce
+        //  Give each cell a slightly different rotation
         child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
 
     });
 
     bombs = this.physics.add.group();
 
-    //  The score
-    scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#000' });
+    //  The infection
+    scoreText = this.add.text(16, 16, 'infection : 0%', { fontSize: '32px', fill: '#000' });
 
     //  Collide the player and the stars with the platforms
-    this.physics.add.collider(player, platforms);
-    this.physics.add.collider(Cell, platforms);
-    this.physics.add.collider(WhiteCell, platforms);
+    this.physics.add.collider(player, border);
+    this.physics.add.collider(Cell, border);
+    this.physics.add.collider(WhiteCell, border);
 
     //  Checks to see if the player overlaps with any of the white cells, if he does call the destroyCell function
     this.physics.add.overlap(player, Cell, destroyCell, null, this);
