@@ -1,9 +1,95 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
+  
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'histoire du Sida</title>
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body{
+      font-size: 30px;
+    }
+        button {
+            position: absolute;
+        }
+          
+        h1 {
+            color: green;
+        }
+          
+        button {
+            background-color: rgb(153, 153, 153);
+            border-radius: 25px;
+            font-size: 20px;
+        }
+        /*When we are on Left button we change it's 
+         navigation using nav properties*/
+        #Geeks1 {
+            nav-right: #Geeks2; 
+            nav-left: #Geeks4;
+            nav-down: #Geeks2; 
+            nav-up: #Geeks4;
+            top: 35%;
+            left: 43%;
+            nav-index: 1;
+        }
+        /*When we are on top button we change it's 
+         navigation using nav properties*/
+        #Geeks2 {
+            nav-right: #Geeks3; 
+            nav-left: #Geeks1;
+            nav-down: #Geeks3; 
+            nav-up: #Geeks1;
+            top: 50%;
+            left: 65%;
+            nav-index: 2;
+        }
+        /*When we are on right button we change it's 
+         navigation using nav properties*/
+        #Geeks3 {
+            nav-right: #Geeks4; 
+            nav-left: #Geeks2;
+            nav-down: #Geeks4; 
+            nav-up: #Geeks2;
+            top: 65%;
+            left: 43%;
+            nav-index: 3;
+        }
+        /*When we are on bottom button we change it's 
+         navigation using nav properties*/
+        #Geeks4 {
+            nav-right: #Geeks1; 
+            nav-left: #Geeks3;
+            nav-down: #Geeks1; 
+            nav-up: #Geeks3;
+            top: 50%;
+            left: 20%;
+            nav-index: 4;
+        }
+    </style>
 </head>
+  
+<body>
+    <center>
+        <h2>GeeksforGeeks</h2>
+        <p>
+           Press the <samp>Shift</samp>
+           key while navigating with the arrow keys.
+        </p>
+  
+    </center>
+    <button id="Geeks1">Up
+        <i class="fa fa-arrow-up"></i>
+    </button>
+    <button id="Geeks2">Right
+        <i class="fa fa-arrow-right"></i>
+    </button>
+    <button id="Geeks3">Down
+        <i class="fa fa-arrow-down"></i>
+    </button>
+    <button id="Geeks4">Left
+        <i class="fa fa-arrow-left"></i>
+    </button>
+      
+</body>
+  
 </html>
