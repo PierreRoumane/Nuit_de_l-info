@@ -117,13 +117,13 @@ function create ()
 
     //  Collide the player and the stars with the platforms
     this.physics.add.collider(player, platforms);
-    this.physics.add.collider(stars, platforms);
-    this.physics.add.collider(bombs, platforms);
+    this.physics.add.collider(Cell, platforms);
+    this.physics.add.collider(WhiteCell, platforms);
 
     //  Checks to see if the player overlaps with any of the white cells, if he does call the destroyCell function
-    this.physics.add.overlap(player, stars, destroyCell, null, this);
+    this.physics.add.overlap(player, Cell, destroyCell, null, this);
 
-    this.physics.add.collider(player, bombs, hitBomb, null, this);
+    this.physics.add.collider(player, WhiteCell, hitWhiteCell, null, this);
 }
 
 function update ()
