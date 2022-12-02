@@ -123,7 +123,7 @@ function create ()
     //  Checks to see if the player overlaps with any of the white cells, if he does call the destroyCell function
     this.physics.add.overlap(player, Cell, destroyCell, null, this);
 
-    this.physics.add.collider(player, WhiteCell, hitWhiteCell, null, this);
+    this.physics.add.collider(player, WhiteCell, die, null, this);
 }
 
 function update ()
