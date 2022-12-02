@@ -1,0 +1,9 @@
+* {box-sizing: border-box}
+
+
+.test{
+    vertical-align: middle;
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}

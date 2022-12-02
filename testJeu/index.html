@@ -6,11 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        
+    <div class="test">
+    <form >
+        <input type="button" value="1">
+      </form>
+      <p>La machine est arrêtée.</p>
     </div>
+
+    <script>
+
+var monTableau = [
+    [0, 0],
+    [0, 0]
+   ];
+var btn = document.querySelector('input');
+var txt = document.querySelector('p');
+
+btn.addEventListener('click', updateBtn);
+
+function updateBtn() {
+  if (btn.value === '1') {
+    btn.value = '0';
+    txt.textContent = 'La machine est démarrée !';
+    monTableau[0][0] += 1;
+    document.write("<h1>"+monTableau[0][0] + " " + monTableau[0][1] +"<br/>"+ monTableau[1][0] + " " + monTableau[1][1] + "<h1>");
+  } else {
+    btn.value = '1';
+    txt.textContent = 'La machine est arrêtée.';
+    document.write(monTableau[0][0] + " " + monTableau[0][1] +"<br/>"+ monTableau[1][0] + " " + monTableau[1][1]);
+  }
+}
+
+
+    </script>
 </body>
 </html>
