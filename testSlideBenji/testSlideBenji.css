@@ -62,7 +62,7 @@ img {
 .text1{
     color: #000000;
   font-size: 20px;
-  padding: 50px 30px;
+  padding: 20px 30px;
   position: absolute;
   top: 0%;
   width: 100%;
@@ -76,6 +76,28 @@ img {
   position: absolute;
   bottom: 10%;
   width: 100%;
+  text-align: center;
+}
+
+.text3{
+    color: #000000;
+  font-size: 20px;
+  padding: 40% 50px;
+  padding-left: 30%;
+  position: absolute;
+  top: 0%;
+  width: 60%;
+  text-align: center;
+}
+
+.text4{
+    color: #000000;
+  font-size: 15px;
+  padding: 40% 50px;
+  padding-left: 20%;
+  position: absolute;
+  top: 40%;
+  width: 60%;
   text-align: center;
 }
 
