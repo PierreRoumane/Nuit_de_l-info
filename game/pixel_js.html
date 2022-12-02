@@ -60,31 +60,17 @@ function action() {
     context.drawImage(monImage,0,0); // On trace l'image monImage dans le contexte du canvas
 
 
-    // On donne les coordonnées x,y du pixel à analyser
+    // On stocke dans white la valeur héxadécimal du blanc
 
-    var x = 50;
+    var white = "#FFFFFF";
 
-    var y = 50;
+    // On stocke dans black la valeur héxadécimal du noir
 
-    // On stocke dans rgba l'ensemble des intensités du pixel
+    var black = "#000000";
 
-    var rgba = context.getImageData(x,y,x+1,y+1);
+    // On stocke dans red la valeur héxadécimal du rouge
 
-    // On stocke dans red la première valeur trouvée, d'index 0
-
-    var red = rgba.data[0];
-
-    // On stocke dans green la deuxième, d'index 1
-
-    var green = rgba.data[1];
-
-    // On stocke dans bleu la troisième, d'index 2
-
-    var blue = rgba.data[2];
-
-
-    alert('Les valeurs RBG du pixel des coordonnées x=' + x + ';y=' + y + ' sont \nR=' + red + '\nG=' + green + '\nB=' + blue);
-
+    var red = " #FF0000";
 }
 
 
